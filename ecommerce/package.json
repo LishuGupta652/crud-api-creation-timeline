@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "car.js",
+  "scripts": {
+    "test": "echo \"Er: no test specified\" && exit 1",
+    "execute": "node index.js",
+    "start": "node node",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loadsh": "^0.0.4"
+  }
+}
