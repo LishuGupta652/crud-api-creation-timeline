@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "car.js",
-  "scripts": {
-    "test": "echo \"Er: no test specified\" && exit 1",
-    "execute": "node index.js",
-    "start": "node node",
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "loadsh": "^0.0.4"
-  }
+    "axios": "^0.24.0",
+    "bootstrap": "^4.5.1",
+    "cowsay": "^1.5.0",
+    "loadsh": "^0.0.4",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
