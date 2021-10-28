@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const  stripe = require('stripe')('sk_test_B7GrTxvFylAEGyG2lK3HpKet00wTSuaVPd')
+const  stripe = require('stripe')('')
 
 app.get('/api', (req,res )=> {
     const apiKey = req.query.apiKey;
@@ -18,7 +18,7 @@ app.post('/checkout', async (req,res) => {
         payment_method_types: ['card'],
         line_items: [
             {
-                price: 'price_1JpdMcKIqhkigpvZFATNtYgb',
+                price: '',
             },
         ],
         success_url: 'https://localhost:5000/success?',
