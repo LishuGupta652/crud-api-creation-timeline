@@ -1,5 +1,6 @@
 import express from 'express';
 import userRoutes from './routes/user.js';
+import bodyParser from 'body-parser';
 
 const app = express();
 const PORT = 5000;
@@ -7,7 +8,9 @@ const PORT = 5000;
 
 
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: false }))
+
 
 
 app.use('/users',userRoutes);
