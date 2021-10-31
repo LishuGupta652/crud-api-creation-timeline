@@ -18,5 +18,11 @@
   "homepage": "https://github.com/LishuGupta652/test#readme",
   "devDependencies": {
     "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^9.2.0",
+    "nodemon": "^2.0.14"
   }
 }

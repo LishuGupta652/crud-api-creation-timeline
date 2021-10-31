@@ -5,4 +5,4 @@ userRouter.get('/', (req, res) => {
     console.log("REUESTING IS WORKING REALLY FINE.");
 })
 
-export userRouter;
+module.exports  =  userRouter;
