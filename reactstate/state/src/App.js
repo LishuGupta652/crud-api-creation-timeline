@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
+
+
 function App() {
+  const[ movies, setMovies ]= useState([
+    {
+      name:'harry potter',
+      price: "$10",
+      id: 1234
+    },
+    {
+      name:'harry met sejal',
+      price: "$20",
+      id: 1235
+    }
+  ])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>This is the movies app</h1>
+      {movies.map(movie => {
+        <div>some thing else</div>
+      })}
     </div>
+
   );
 }
 
