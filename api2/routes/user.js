@@ -19,7 +19,10 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req,res) => {
-    
+    console.log('router reached');
+    console.log(req.body);
+    // users.push 
+    res.send('post route reached'); 
 })
 
 export default router;
