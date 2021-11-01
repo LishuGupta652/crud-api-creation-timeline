@@ -1,0 +1,13 @@
+GET https://5000-black-quokka-a2fdf1h0.ws-us18.gitpod.io/users HTTP/1.1
+
+###
+
+###
+
+POST https://5000-black-quokka-a2fdf1h0.ws-us18.gitpod.io/users HTTP/1.1
+
+{
+    "firstname" : "new",
+    "lastname": "data",
+    "age": "15",
+}

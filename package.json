@@ -10,14 +10,28 @@
     "type": "git",
     "url": "git+https://github.com/LishuGupta652/test.git"
   },
+<<<<<<< HEAD
   "keywords": [],
+=======
+>>>>>>> 25212d30f9c6abc23f481a38c42279f6eaaf90f2
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LishuGupta652/test/issues"
   },
   "homepage": "https://github.com/LishuGupta652/test#readme",
+<<<<<<< HEAD
   "dependencies": {
     "express": "^4.17.1"
+=======
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^9.2.0",
+    "nodemon": "^2.0.14"
+>>>>>>> 25212d30f9c6abc23f481a38c42279f6eaaf90f2
   }
 }
